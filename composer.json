@@ -3,7 +3,7 @@
     "description": "enable mongodb",
     "type": "library",
     "require": {
-        "mongodb/mongodb": "^1.0"
+        "ext-mongodb": "*"
     },
     "license": "MIT"
 }
