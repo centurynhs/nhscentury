@@ -1,9 +1,6 @@
 {
     "type": "package",
     "name": "alcaeus/adapter-test",
-    "replace": {
-        "ext-mongo": "1.6.12"
-    },
     "require": {
         "ext-mongo": "1.6.12"
     }
