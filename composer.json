@@ -1,9 +1,16 @@
 {
-    "name": "century/mongo",
-    "description": "enable mongodb",
+    "name": "nhs/mongo",
+    "description": "PHP Extension",
     "type": "library",
     "require": {
-        "ext-mongodb": "*"
+        "topthink/think-mongo": "dev-master"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "guava25",
+            "email": "guave753@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev"
 }
