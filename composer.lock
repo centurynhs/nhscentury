@@ -4,52 +4,17 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a5b4f0f99f98c2a459cb4be5687380a3",
-    "content-hash": "f7ebff7b9a7760a45c6869f80f9605f6",
-    "packages": [
-        {
-            "name": "topthink/think-mongo",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/top-think/think-mongo.git",
-                "reference": "d448175d88c73c58b6abd089cfea9d2ed421fe01"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/top-think/think-mongo/zipball/d448175d88c73c58b6abd089cfea9d2ed421fe01",
-                "reference": "d448175d88c73c58b6abd089cfea9d2ed421fe01",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "think\\mongo\\": "src"
-                },
-                "files": []
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "liu21st",
-                    "email": "liu21st@gmail.com"
-                }
-            ],
-            "description": "mongodb driver for thinkphp5",
-            "time": "2016-08-30 07:14:28"
-        }
-    ],
+    "hash": "e55583570602178351979f8f713c85bc",
+    "content-hash": "63bb711137805cc74a92b0589d23484a",
+    "packages": [],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": {
-        "topthink/think-mongo": 20
-    },
+    "minimum-stability": "stable",
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-mongo": "1.6.12"
+    },
     "platform-dev": []
 }

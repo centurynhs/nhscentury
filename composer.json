@@ -1,16 +1,10 @@
 {
-    "name": "nhs/mongo",
-    "description": "PHP Extension",
-    "type": "library",
-    "require": {
-        "topthink/think-mongo": "dev-master"
+    "type": "package",
+    "name": "alcaeus/adapter-test",
+    "replace": {
+        "ext-mongo": "1.6.12"
     },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "guava25",
-            "email": "guave753@outlook.com"
-        }
-    ],
-    "minimum-stability": "dev"
+    "require": {
+        "ext-mongo": "1.6.12"
+    }
 }
