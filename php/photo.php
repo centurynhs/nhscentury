@@ -34,6 +34,7 @@ if(isset($_POST['submit'])){
                         "photo_id" => $id.$i,
                         "name" => $shortname,
                         "photo" => $encode
+                        "type" => "photo"
                     );
                     $collection->insert( $doc );
 
