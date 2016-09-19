@@ -1,0 +1,8 @@
+{
+    "name": "chsnhs/mongo",
+    "description": "PHP",
+    "require": {
+        "ext-mongo": "*"
+    },
+    "license": "MIT"
+}
