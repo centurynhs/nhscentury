@@ -3,7 +3,7 @@ $connect = new MongoClient("mongodb://admin:nhsadmin@ds147995.mlab.com:47995/cen
 $db = $connect->centurynhs;
 $collection = $db->photos;
 
-$cursor = $collection->find(array("photo_id" => '57c66237cf9100'));
+$cursor = $collection->find();
 
 foreach ($cursor as $document) {
     $photoData = $document['photo'];
