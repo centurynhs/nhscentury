@@ -81,6 +81,11 @@ require 'base.php';
           <h2 class="section-subtitle wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">Available that day?</h2>
         </div>
         <div class="row">
+              <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <p>Google Calendar?</p>
+            </div>
+        </div>
+        <!--<div class="row">
 
           <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="features">
@@ -168,7 +173,7 @@ require 'base.php';
               </div>
             </div>
           </div>   
-        </div>
+        </div>-->
       </div>
     </section>
 
@@ -196,7 +201,7 @@ require 'base.php';
       </div>
     </section>
 
-     <section id="main-features" class="section main-feature-gray">
+     <!--<section id="main-features" class="section main-feature-gray">
       <div class="container">
 
         <div class="row">   
@@ -225,7 +230,7 @@ require 'base.php';
         </div>
 
       </div>
-    </section>
+    </section>-->
 
      <section id="main-features" class="section">
       <div class="container">
@@ -260,7 +265,7 @@ require 'base.php';
       </div>
     </section>
 
-     <section id="main-features" class="section main-feature-gray">
+     <!--<section id="main-features" class="section main-feature-gray">
       <div class="container">
 
         <div class="row">   
@@ -289,18 +294,18 @@ require 'base.php';
         </div>
 
       </div>
-    </section>
+    </section>-->
 
     <section id="cta">
       <div class="container">
         <div class="row text-center">         
-            <h3 class="title-small wow bounce" data-wow-duration="1000ms" data-wow-delay="300ms">Join Us Today and Change Yourself</h3>
-             <a href="javascript:void(0)" class="btn btn-lg btn-border">Sign Up</a>
+            <h3 class="title-small wow bounce" data-wow-duration="1000ms" data-wow-delay="300ms">Want to join?</h3>
+             <a href="javascript:void(0)" class="btn btn-lg btn-border">Application</a>
           </div>
       </div>
     </section>
 
-    <section id="screenshot" class="section">
+    <!--<section id="screenshot" class="section">
       <div class="container">
         <div class="section-header">
           <h1 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">Portfolio</h1>
@@ -312,10 +317,10 @@ require 'base.php';
         </div>
       </div>
 
-    </section>
+    </section>-->
 
 
-    <section id="other-features">
+    <!--<section id="other-features">
       <div class="container">
         <div class="section-header">
           <h1 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">Other Features</h1>
@@ -396,10 +401,10 @@ require 'base.php';
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
 
-    <section id="testimonial" class="section">
+    <!--<section id="testimonial" class="section">
       <div class="container">
         <div class="section-header text-center wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
           <h1 class="section-title">What People Says</h1>
@@ -409,7 +414,7 @@ require 'base.php';
           <div class="col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
             <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
               <!-- Indicators -->
-              <ol class="carousel-indicators">
+              <!--<ol class="carousel-indicators">
                 <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
                 <li data-target="#testimonial-carousel" data-slide-to="1"></li>
                 <li data-target="#testimonial-carousel" data-slide-to="2"></li>
@@ -438,37 +443,37 @@ require 'base.php';
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
 
     <section id="counter" class="section">
       <div class="container">
         <div class="row">
-          <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <div class="col-md-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="counter-item">
               <div class="icon">
                 <i class="mdi-action-get-app"></i>
               </div>
-              <h3 class="timer">39000</h3>
+              <h3 class="timer">50</h3>
               <hr>
               <h5>
-                Free Downloads
+                Members
               </h5>          
             </div>
           </div>
-          <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+          <div class="col-md-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
             <div class="counter-item">
               <div class="icon">
                 <i class="mdi-action-face-unlock"></i>
               </div>
-              <h3 class="timer">1046</h3>
+              <h3 class="timer">1</h3>
               <hr>
               <h5>
-                Premium Users
+                Organization
               </h5>          
             </div>
           </div>
-          <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="700ms">
+          <!--<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="700ms">
             <div class="counter-item">
               <div class="icon">
                 <i class="mdi-action-grade"></i>
@@ -491,13 +496,13 @@ require 'base.php';
                 Active Installs
               </h5>          
             </div>
-          </div>
+          </div>-->
         </div>
       </div>
     </section>
 
 
-    <section id="clients" class="section">
+    <!--<section id="clients" class="section">
       <div class="container">
         
         <div class="section-header text-center">
@@ -527,7 +532,7 @@ require 'base.php';
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
 
     <section id="contact">
