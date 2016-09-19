@@ -38,11 +38,8 @@ require 'base.php';
       </div>
         <ul class="nav navbar-nav main-navigation">
           <li class="active"><a href="#home">Home</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#why">why</a></li>
-          <li><a href="#screenshot">Screenshots</a></li>
-          <li><a href="#testimonial">Testimonial</a></li>
-          <li><a href="#clients">Contact</a></li>
+          <li><a href="#features">Calendar</a></li>
+          <li><a href="#why">Requirements</a></li>
         </ul>
         <button class="close-button" id="close-button">Close Menu</button>
     </div>
