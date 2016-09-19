@@ -18,9 +18,10 @@ if(empty($cursor)){
 foreach ($cursor as $document) {
     echo "<tr><td>";
     $photoData = $document['photo'];
-    $decode = base64_decode($photoData);
+    //$decode = base64_decode($photoData);
     header('Content-type: image/jpeg');
-    echo $decode;
+    //echo $decode;
+    echo $photoData;
     echo "</td></tr>";
 }
 
