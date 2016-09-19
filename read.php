@@ -10,6 +10,7 @@ foreach ($cursor as $document) {
     $decode = base64_decode($photoData);
     header('Content-type: image/jpeg');
     echo $decode;
+    echo "<br>";
 }
 
 ?>
