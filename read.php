@@ -5,7 +5,7 @@ $collection = $db->photos;
 
 $photo_name = $_GET['photo'];
 
-$cursor = $collection->find(array("type" => 'photo'));
+$cursor = $collection->find(array("name" => $photo_name));
 
 if(empty($cursor)){
     echo "Empty";
@@ -18,10 +18,9 @@ if(empty($cursor)){
 foreach ($cursor as $document) {
     echo "<tr><td>";
     $photoData = $document['photo'];
-    //$decode = base64_decode($photoData);
+    $decode = base64_decode($photoData);
     header('Content-type: image/jpeg');
-    //echo $decode;
-    echo $photoData;
+    echo $decode;
     echo "</td></tr>";
 }
 
