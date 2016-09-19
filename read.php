@@ -5,7 +5,7 @@ $collection = $db->photos;
 
 $photo_name = $_GET['photo'];
 
-$cursor = $collection->find(array("name" => '$photoname'));
+$cursor = $collection->find(array("name" => $photo_name));
 
 if(empty($cursor)){
     echo "Empty";
