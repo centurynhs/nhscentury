@@ -5,7 +5,7 @@ $collection = $db->photos;
 
 $photo_name = $_GET['photo'];
 
-$cursor = $collection->find(array("name" => $photoname));
+$cursor = $collection->find(array("name" => '$photoname'));
 
 foreach ($cursor as $document) {
     $photoData = $document['photo'];
