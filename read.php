@@ -11,19 +11,10 @@ if(empty($cursor)){
     echo "Empty";
 }
 
-?>
-<table class="table">
-    
-<?php
 foreach ($cursor as $document) {
-    echo "<tr><td>";
     $photoData = $document['photo'];
     $decode = base64_decode($photoData);
     header('Content-type: image/jpeg');
     echo $decode;
-    echo "</td></tr>";
 }
-
 ?>
-    
-</table>
