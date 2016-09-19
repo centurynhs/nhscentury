@@ -7,6 +7,10 @@ $photo_name = $_GET['photo'];
 
 $cursor = $collection->find(array("name" => '$photoname'));
 
+if(empty($cursor)){
+    echo "Empty";
+}
+
 foreach ($cursor as $document) {
     $photoData = $document['photo'];
     $decode = base64_decode($photoData);
