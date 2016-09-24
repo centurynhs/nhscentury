@@ -68,6 +68,7 @@ require 'base.php';
           <p class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">Recognizing Students for Outstanding Scholarship, Leadership, Service, and Character</p>
           <a href="#why" class="btn btn-lg btn-primary wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Member Requirements</a>
           <a href="#features" class="btn btn-lg btn-border wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">Upcoming Events</a>
+          <a href="display.php" class="btn btn-lg btn-primary wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">Photo Gallery</a>
         </div>   
     </header>
 
