@@ -1,5 +1,6 @@
 <?php
-require 'dbconnect.php';
+$connect = new MongoClient("mongodb://admin:nhsadmin@ds147995.mlab.com:47995/centurynhs");
+$db = $connect->centurynhs;
 $collection = $db->photos;
 
 if(isset($_POST['submit'])){
@@ -33,10 +34,13 @@ if(isset($_POST['submit'])){
                     $doc = array(
                         "photo_id" => $id.$i,
                         "name" => $shortname,
-                        "photo" => $encode,
-                        "type" => "photo"
+                        "photo" => $encode
                     );
                     $collection->insert( $doc );
+                    $file = fopen("../photo.txt","a");
+                    $txt = "\n".$shortname."\n";
+                    fwrite($file, $txt);
+                    fclose($file);
 
                 }
               }
@@ -52,5 +56,6 @@ if(isset($_POST['submit'])){
         }
         echo "</ul>";
     }
+    echo "<h1>ALL UPLOADS ARE FINAL</h1>";
 }
 ?>
