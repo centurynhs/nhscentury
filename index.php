@@ -30,6 +30,14 @@ require 'base.php';
 //        }));
     });
 </script>
+<style>
+    .responsiveCal {
+        position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+    }
+    .responsiveCal iframe {
+        position: absolute; top:0; left: 0; width: 100%; height: 100%;
+    }
+</style>
   <body>
 
     <div class="navbar navbar-invers menu-wrap">
@@ -80,7 +88,9 @@ require 'base.php';
         </div>
         <div class="row">
               <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                  <iframe src="https://calendar.google.com/calendar/embed?src=centurynhs%40gmail.com&ctz=America/Chicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                  <div class="responsiveCal">
+                    <iframe src="https://calendar.google.com/calendar/embed?src=centurynhs%40gmail.com&ctz=America/Chicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                  </div>
             </div>
         </div>
         <!--<div class="row">
