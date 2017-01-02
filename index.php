@@ -80,7 +80,7 @@ require 'base.php';
         </div>
         <div class="row">
               <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                  <p>Google Calendar?</p>
+                  <iframe src="https://calendar.google.com/calendar/embed?src=centurynhs%40gmail.com&ctz=America/Chicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
             </div>
         </div>
         <!--<div class="row">
